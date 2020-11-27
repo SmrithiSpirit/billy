@@ -16,6 +16,9 @@ label {
     -webkit-font-smoothing: antialiased;
     font-size: 14px;
 }
+.btn-sm{
+padding: 0rem .5rem !important;
+}
 /* .btn{
   padding : 0.1rem 0.25rem !important ;
 } */
