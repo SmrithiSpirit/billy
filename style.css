@@ -1,0 +1,16 @@
+body {
+        background-image: linear-gradient(to right, #e1ad01 , #fad506);
+
+}
+.form-control{
+  padding :0
+}
+.form-group{
+  margin-bottom: 0.25rem !important;
+}
+label{
+  margin-bottom: 0rem !important;
+}
+/* .btn{
+  padding : 0.1rem 0.25rem !important ;
+} */
