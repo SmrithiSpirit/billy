@@ -8,8 +8,13 @@ body {
 .form-group{
   margin-bottom: 0.25rem !important;
 }
-label{
-  margin-bottom: 0.1rem !important;
+ 
+label {
+    display: inline-block;
+    margin-bottom: 0.1rem !important;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
 }
 /* .btn{
   padding : 0.1rem 0.25rem !important ;
