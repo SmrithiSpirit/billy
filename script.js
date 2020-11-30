@@ -6,7 +6,7 @@ $("#submitBtn").click(function () {
       event: {
         code: "formData",
         data: {
-          billyData: formData
+          billyData: JSON.parse(formData)
         }
       }
     })
