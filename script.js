@@ -2,10 +2,10 @@
 $("#submitBtn").click(function () {
   var formData = $("form").serialize().split("&");
     var obj={};
-    for(var key in data)
+    for(var key in formData)
     {
-        console.log(data[key]);
-        obj[data[key].split("=")[0]] = data[key].split("=")[1];
+        console.log(formData[key]);
+        obj[formData[key].split("=")[0]] = formData[key].split("=")[1];
     }
 
     console.log(obj);
